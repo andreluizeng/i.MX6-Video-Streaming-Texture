@@ -1,0 +1,13 @@
+Please, define the ROOTFS_DIR env. variable pointing to your ltib rootfs in order to build this application:
+
+export ROOTFS_DIR=<ltib_rootfs_path>
+
+then:
+
+1 - make
+2 - copy the bin folder content to your rootfs
+3 - simple_gpu_player <filename> <width> <height>
+
+
+regards,
+Andre
